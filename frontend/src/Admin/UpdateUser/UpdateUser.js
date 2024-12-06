@@ -54,7 +54,7 @@ const UpdateUser = () => {
         }
         if (isUpdated) {
             alert.success("User Updated Successfully")
-            navigate("/admin/all-users")
+            navigate("/")
             dispatch({ type: UPDATE_USER_RESET });
         }
     }, [dispatch, alert, error, isUpdated, navigate, user, id, updateError])

@@ -35,7 +35,7 @@ const CreateUser = () => {
         }
         if (success) {
             alert.success("User Created");
-            navigate("/admin/all-users");
+            navigate("/");
             dispatch({ type: NEW_USER_RESET });
         }
     }, [dispatch, error, success, navigate, alert])

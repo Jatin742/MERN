@@ -1,0 +1,41 @@
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.headerContainer h1 {
+    flex: 1;
+    text-align: center;
+}
+
+.navigateButton {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.eventListTable .action-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+}
+
+.eventListTable .action-icons svg {
+    font-size: 20px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.527);
+    transition: all 0.5s;
+}
+
+.eventListTable .action-icons svg:hover{
+    color: black;
+}
